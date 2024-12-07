@@ -1,0 +1,76 @@
+<style>
+  .directionButton{
+    background-color: rgb(173, 173, 173);
+    color:black;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px; 
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .pageButton{
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    color:blueviolet;
+    text-decoration: underline;
+
+  }
+  .strechButton{
+    background-color: green;
+    columns: white;
+    border-color: green;
+    border-style: solid;
+    transition: padding-top 1s,
+    padding-bottom 1s,
+    padding-left 1s,
+    padding-right 1s;
+  }
+  .strechButton:hover{
+    padding-top: 18px;
+    padding-bottom:18px;
+    padding-right:36px;
+    padding-left:36px;
+  }
+  .ShadowButton{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-color: green;
+    border-style: solid;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  .ShadowButton:Active{
+    margin-top:3px;
+    margin-left:3px;
+    box-shadow: none;
+  }
+</style>
+
+<button class="directionButton">
+  Back
+</button>
+
+<button class="pageButton">1</button>
+<button class="pageButton">2</button>
+<button class="pageButton">3</button>
+<button class="pageButton">4</button>
+<button class="pageButton">5</button>
+
+<button class="directionButton">
+  Next
+</button>
+
+<br><br>
+<button class="strechButton">
+  Strech
+</button>
+<br><br>
+<button class="ShadowButton">
+  Shadow
+</button>
+<br><br>
+<button 
