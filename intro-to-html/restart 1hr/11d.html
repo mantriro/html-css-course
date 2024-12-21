@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        friend bar
+    </title>
+    <style>
+        .card {
+            height: 600px;
+            width: 350px;
+            border-width: 2px;
+            box-shadow: 0 0 5px rgba(0 0 0 0.3);
+           display: inline-block;
+            margin-right: 20px;
+        }
+
+        .profile-picture {
+            width: 350px;
+            height: 350px;
+            display: inline-block;
+            object-fit: cover;
+            margin-bottom: 15px;
+            vertical-align: center;
+        }
+        p{
+            font-size: 35px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .profile-name{
+            font-weight: bold;
+            font-size: 40px;
+        }
+        .mutuals{
+            color: gray;
+            margin-bottom: 20px;
+        }
+        .add-friend{
+            font-size: 35px;
+            background-color: rgb(20, 118, 210);
+            color: white;
+            border-radius: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border: none;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="grid">
+        <div class="card">
+            <img class="profile-picture" src="thumbnails\cat1.png">
+            <p class="profile-name">Oliver</p>
+            <p class="mutuals"> 2 mutual friends</p>
+            <button class="add-friend">Add Friend</button>
+        </div>
+        <div class="card">
+            <img class="profile-picture" src="thumbnails\thumbnail-1.webp">
+            <p class="profile-name">Marques</p>
+            <p class="mutuals">102 mutual friends</p>
+            <button class="add-friend">Add Friend</button>
+        </div>
+        <div class="card">
+            <img class="profile-picture" src="thumbnails\cat1.png">
+            <p class="profile-name">Oliver</p>
+            <p class="mutuals"> 2 mutual friends</p>
+            <button class="add-friend">Add Friend</button>
+        </div>
+    </div>
+    
+</body>
+
+</html>
